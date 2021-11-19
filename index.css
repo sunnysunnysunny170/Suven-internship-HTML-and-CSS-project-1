@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cairo:wght@300&family=Dancing+Script:wght@400;500&family=Josefin+Sans:wght@100&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Mulish:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,300;1,300&family=Zen+Maru+Gothic:wght@300&display=swap');
+body{
+    
+font-family: 'Mulish', sans-serif;
+}
+.navbar{
+    background-color: rgb(0, 238, 255);
+}
+.navbar-nav{
+    margin-left: 290px !important;
+    font-size: 1.1em;
+    
+
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.nav-item{
+    padding-right:25px ;
+}
+/*  */
+/*  */
+.dropbtn {
+    background-color: #04AA6D;
+    padding: 6px 50px;
+    color: white;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative !important;
+    display: inline-block !important;
+  }
+  .dropdown-content {
+    display: none !important;
+    position: absolute;
+    background-color: #f1f1f1;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1 !important;
+  }
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block !important;
+  }
+  .dropdown-content dropdown-item:hover {background-color: #ddd !important;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block !important;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41 !important;}
+
+ .imagedes{
+  background-color: rgb(175, 230, 227);
+  font-size: 30px;
+  padding: 1px 1px ;
+} 
+.row2{
+  margin-top: 55px;
+}
+.movielist{
+  background-color: rgb(47, 53, 50);
+}
+.search1{
+  background-color: rgb(47,53,50) !;
+}
+.footerlast{
+  background-color: rgb(46, 139, 139);
+}
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+/*
+ Multicoloured Hover Variations
+*/
+
+#social-fb:hover {
+  color: #0051ff;
+}
+#social-li:hover {
+  color: #004af7;
+  background-color: rgb(255, 254, 254);
+}
+#social-gi:hover {
+  color: #151920;
+}
+#social-tw:hover {
+  color: #4099FF;
+}
+#social-gp:hover {
+  color: #d34836;
+}
+#social-em:hover {
+  color: rgb(210, 212, 40)}
+#social-ins:hover {
+  color: blueviolet}
+#social-yo:hover {
+  color: rgb(255, 0, 0)}
+  body{
+    background-color: rgb(61, 71, 66) !important;
+  }
+  .social{
+    color: seashell;
+  }
