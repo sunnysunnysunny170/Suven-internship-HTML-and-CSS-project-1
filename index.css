@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cairo:wght@300&family=Dancing+Script:wght@400;500&family=Josefin+Sans:wght@100&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Mulish:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,300;1,300&family=Zen+Maru+Gothic:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cairo:wght@300&family=Dancing+Script:wght@400;500&family=Josefin+Sans:wght@100&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Mulish:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,300;0,400;1,300&family=Zen+Maru+Gothic:wght@300&display=swap');
 body{
     
 font-family: 'Mulish', sans-serif;
+
 }
 .navbar{
     background-color: rgb(0, 238, 255);
@@ -9,13 +11,10 @@ font-family: 'Mulish', sans-serif;
 .navbar-nav{
     margin-left: 290px !important;
     font-size: 1.1em;
-    
-
-}
+  }
 .navbar-brand{
     font-weight: bold;
     font-size: 25px;
-    
 }
 .nav-item{
     padding-right:25px ;
@@ -46,7 +45,8 @@ font-family: 'Mulish', sans-serif;
     text-decoration: none;
     display: block !important;
   }
-  .dropdown-content dropdown-item:hover {background-color: #ddd !important;}
+  .dropdown-content dropdown-item:hover {background-color: #ddd !important;
+    }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block !important;}
@@ -54,20 +54,72 @@ font-family: 'Mulish', sans-serif;
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41 !important;}
 
- .imagedes{
-  background-color: rgb(175, 230, 227);
-  font-size: 30px;
-  padding: 1px 1px ;
-} 
+
+/*  */
+.genreheading {
+color: #f1f1f1 !important;
+font-size: 30px;
+padding-left: 20px;
+display: inline-block;
+width: 320px;
+
+}
+/*----  Main Style  ----*/
+.card{
+  border-radius: 20px !important;
+}
+#cards_landscape_wrap-2 a{
+  text-decoration: none;
+  outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box{
+  
+  overflow: hidden;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.50);
+  
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img{
+  -webkit-transition:all .9s ease; 
+  -moz-transition:all .9s ease; 
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease; 
+  width: 100%;
+  height: 290px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+  opacity: 0.9;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer:hover{
+  box-shadow: 0px 15px 23px rgba(19, 149, 172, 0.5);
+  -webkit-transform: scale(1.1) ;
+  -moz-transform: scale(1.1) ;
+  -o-transform: scale(1.1) ;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p{
+  padding-top: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* row-2 */
 .row2{
-  margin-top: 55px;
+  margin-top: 23px;
 }
-.movielist{
-  background-color: rgb(47, 53, 50);
-}
-.search1{
-  background-color: rgb(47,53,50) !;
-}
+
+/*  */
+/* footer */
 .footerlast{
   background-color: rgb(46, 139, 139);
 }
@@ -97,6 +149,7 @@ font-family: 'Mulish', sans-serif;
 #social-li:hover {
   color: #004af7;
   background-color: rgb(255, 254, 254);
+  border-radius: 8px;
 }
 #social-gi:hover {
   color: #151920;
@@ -119,3 +172,10 @@ font-family: 'Mulish', sans-serif;
   .social{
     color: seashell;
   }
+
+
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  

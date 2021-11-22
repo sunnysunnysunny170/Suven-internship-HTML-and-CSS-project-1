@@ -2,13 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--  -->
+  <!--  -->
+  <!--  -->
+  <!-- navsearch starts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!--navsearch  -->
+  <!--  -->
+  <!--  -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="./index.css">
-  <link rel="icon" href="./logo.png">
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="icon" href="./logo.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -19,31 +28,45 @@
 
 <body>
   <!-- Main div -->
-  <div >
+  <div>
     <!-- navbar starts -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <img src="./images/logo.png" class="logoclass" alt="" width="80px">
-      <a class="navbar-brand " href="#">NN Entertainments</a>
-
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  ">
-          <li class="nav-item ">
-            <a class="nav-link" href="#movies">Movies</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">TV Shows</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Audio</a>
-          </li>
-        </ul>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a href="https://google.com" target="_blank"><img src="./logo.png" alt="error" width="40px" class="logo"
+            id="logo" /></a>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tamilmovielist">Tamil Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Telugu Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">TV Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Web Series</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Here you can search" aria-label="Search" />
+            <button class="btn search-button-top bg-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
     </nav>
     <!-- navbar ends -->
@@ -57,21 +80,20 @@
         data-interval="1500">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/curosel/c4.jpg" class="d-block w-100 " alt="...">
+            <img src="images/curosel/c4.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="./images/curosel/c2.jpg" class="d-block w-100 " alt="...">
+            <img src="./images/curosel/c2.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="./images/curosel/c3.jpg" class="d-block w-100" alt="...">
+            <img src="./images/curosel/c3.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="./images/curosel/c4.jpg" class="d-block w-100" alt="...">
+            <img src="./images/curosel/c4.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="./images/curosel/c5.jpg" class="d-block w-100 " alt="...">
+            <img src="./images/curosel/c5.jpg" class="d-block w-100" alt="..." />
           </div>
-
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -83,7 +105,7 @@
         </a>
       </div>
     </div>
-    <hr>
+    <hr />
 
     <!-- Wallapaper curousel ends -->
 
@@ -97,170 +119,396 @@
           Genre
         </a>
 
-        <div class="dropdown-menu dropdown-content " aria-labelledby="dropdownMenuLink">
+        <div class="dropdown-menu dropdown-content" aria-labelledby="dropdownMenuLink">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Fiction</a>
           <a class="dropdown-item" href="#">Romance</a>
         </div>
       </div>
-
-      <input type="text" class="form-control" aria-label="Text input with dropdown button" list="movies">
-      <datalist id="movies">
-        <option><a href="google.com"></a></option>
-        <option id="">Åland Islands</option>
-        <option>Albania</option>
-        <option>Algeria</option>
-        <option>American Samoa</option>
-        <option>Andorra</option>
-        <option>Angola</option>
-        <option>Anguilla</option>
-        <option>Antarctica</option>
-
-      </datalist>
-
+      <input type="text" class="form-control text-center" aria-label="Text input with dropdown button" list="movies"
+        placeholder="Search for movies" />
       <div class="input-group-append">
-        <button class="btn btn-dark" type="button" id="button-addon2">Search</button>
-      </div>
-
-    </div>
-
-
-    <!--  -->
-    <div class="moviesq" id="movies">
-    <div class="row">
-      <!-- card-1 -->
-      <div class="col-lg-3 col-md-6 col-12 pd-5">
-        <div class="card">
-          <img src="./images/movielogos/1-1.jpg" class="card-img-top" alt="..." height="290px" />
-
-          <div class="card-body text-center imagedes">
-            <p>Love Story</p>
-          </div>
-        </div>
-      </div>
-      <!-- card-2 -->
-      <div class="col-lg-3 col-md-6 col-12 pd-5">
-        <div class="card">
-          <img src="./images/movielogos/2-2.jpg" class="card-img-top " alt="..." height="290px" />
-          <div class="card-body text-center imagedes">
-            <p>Fidha</p>
-          </div>
-        </div>
-      </div>
-      <!-- card-3 -->
-      <div class="col-lg-3 col-md-6 col-12 pd-5">
-        <div class="card card-3">
-          <img src="./images/movielogos/3-3.jpg" class="card-img-top " alt="..." height="290px" />
-          <div class="card-body text-center imagedes">
-            <p>Sultan</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-12 pd-5">
-        <div class="card card-3">
-          <img src="./images/movielogos/4-4.jpg" class="card-img-top " alt="..." height="290px" />
-          <div class="card-body text-center imagedes">
-            <p>AndhalaRakshash</p>
-          </div>
-        </div>
+        <button class="btn btn-dark" type="button" id="button-addon2">
+          Search
+        </button>
       </div>
     </div>
-    <!--  -->
-    <!-- card-4 -->
-    <div class="row row2">
-      <div class="col-lg-3 col-md-6 col-12 pd-5">
-        <div class="card">
-          <img src="./images/movielogos/5-5.jpg" class="card-img-top" alt="..." height="290px" />
 
-          <div class="card-body text-center imagedes">
-            <p class="imgdes1">Krack</p>
-          </div>
-        </div>
+    <!-- tamil movies -->
+    <!--  -->
+    <hr />
+    <div id="tamilmovieslist">
+      <div class="tamilheading">
+        <p class="genreheading">Tamil Love Movies</p>
       </div>
-      <!-- card-5 -->
-      <div class="col-lg-3 col-md-6 col-12 pd-5 mt-6">
-        <div class="card">
-          <img src="./images/movielogos/6.jpg" class="card-img-top " alt="..." height="290px" />
-          <div class="card-body text-center imagedes">
-            <p class="imgdes1">Doosukeltha</p>
+      <!--  -->
+      <!--row cards tamil   -->
+
+      <div id="cards_landscape_wrap-2" class="tamilrow">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <a href="https://rb.gy/dox0tj" target="_blank">
+              <div class="card-flyer card">
+                <div class="text-box card">
+                  <div class="image-box card">
+                    <img src="tamil movie images/96-1.jpg" class="card-img-top" alt="..." />
+                  </div>
+                  <div class="text-container carddes">
+                    <p>96(janu)</p>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-      </div>
-      <!-- card-6 -->
-      <div class="col-lg-3 col-md-6 col-12 pd-5">
-        <div class="card card-3">
-          <img src="./images/movielogos/7.jpg" class="card-img-top " alt="..." height="290px" />
-          <div class="card-body text-center imagedes">
-            <p class="imgdes1">SSS</p>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <a href="https://rb.gy/awyvh3" target="_blank">
+              <div class="card-flyer card">
+                <div class="text-box card">
+                  <div class="image-box card">
+                    <img src="./tamil movie images/adityavarma.jpg" class="card-img-top" alt="..." />
+                  </div>
+                  <div class="text-container carddes">
+                    <p>aditya varma</p>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-12 pd-5">
-        <div class="card card-3">
-          <img src="./images/movielogos/8.jpg" class="card-img-top " alt="..." height="290px" />
-          <div class="card-body text-center imagedes">
-            <p class="imgdes1">Jalsa</p>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <a href="https://www.youtube.com/watch?v=m7CHbnlLO_c&ab_channel=AathanS" target="_blank">
+              <div class="card-flyer card">
+                <div class="text-box card">
+                  <div class="image-box card">
+                    <img src="./tamil movie images/vinnai.jpg" class="card-img-top" alt="..." />
+                  </div>
+                  <div class="text-container carddes">
+                    <p>vinnaithandi varuvaya</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <a href="https://www.hotstar.com/in/movies/raja-rani/1000059189/watch" target="_blank">
+              <div class="card-flyer card">
+                <div class="text-box card">
+                  <div class="image-box card">
+                    <img src="./tamil movie images/rajarani.jfif" class="card-img-top" alt="..." />
+                  </div>
+                  <div class="text-container carddes">
+                    <p>raja rani</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <a href="https://www.amazon.com/Vaaranam-Aayiram-Sameera-Reddy/dp/B078862GNH" target="_blank">
+              <div class="card-flyer card">
+                <div class="text-box card">
+                  <div class="image-box card">
+                    <img src="./tamil movie images/Vaaranam Aayiram.jpg" class="card-img-top" alt="..." />
+                  </div>
+                  <div class="text-container carddes">
+                    <p>Vaaranam Aayiram</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <a href="https://www.hotstar.com/in/movies/o-kadhalkanmani/1000172465/watch" target="_blank">
+              <div class="card-flyer card">
+                <div class="text-box card">
+                  <div class="image-box card">
+                    <img src="./tamil movie images/ok kanmani.jpg" class="card-img-top" alt="..." />
+                  </div>
+                  <div class="text-container carddeshp">
+                    <p>OK Kanmani</p>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </div>
+    <!-- tamil row 2 -->
+    <div id="cards_landscape_wrap-2" class="row2 tamilrow2">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.mxplayer.in/movie/watch-3-movie-online-78a923c9139106b0fd70d4b17f72c918" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./tamil movie images/3.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>3</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.amazon.com/Remo-Sivakarthikeyan/dp/B07NL8YJ26" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./tamil movie images/remo.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>remo</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.mxplayer.in/movie/watch-boys-tamil-movie-online-4cc308ec875381eaeba798330b3b11b2"
+            target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./tamil movie images/boys.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>Boys</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
     <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- telugu movies -->
+    <hr />
+    <div class="teluguheading">
+      <p class="genreheading">Telugu Love Movies</p>
+    </div>
 
-    <!--
-
-        
-         -->
+    <!--  -->
+    <!--row cards telugu   -->
+    <div id="cards_landscape_wrap-2" class="telugurow">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.hotstar.com/in/movies/arjun-reddy/1260014808/watch" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/arjun reddy.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>Arjun Reddy</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.primevideo.com/detail/Yem-Maya-Chesave/0PYYJWHBSYDJWDX6RPB9ZD5TY4" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/yemayachesave.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>Yemayachesave</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.aha.video/movie/love-story" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/1-1.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>Love Story</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.aha.video/movie/fidaa" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/2-2.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>Fidha</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.aha.video/movie/sr-kalyanamandapam" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/srk.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>SRK</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.aha.video/movie/colour-photo" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/colorphoto.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>color photo</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--telugu row-2  starts -->
+    <div id="cards_landscape_wrap-2" class="row2 telugurow">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.aha.video/movie/100-percent-love" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/100love.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>100% Love</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://rb.gy/fkehk0" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/darling.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>Darling</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://www.aha.video/movie/krack" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/krack.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>krack</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+          <a href="https://hotstar.com/in/movies/jaanu/1260044752/watch" target="_blank">
+            <div class="card-flyer card">
+              <div class="text-box card">
+                <div class="image-box card">
+                  <img src="./images/movielogos/jaanu.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="text-container carddes">
+                  <p>jaanu</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr>
 
     <!--  -->
     <!-- footer starts -->
     <!-- Footer -->
-    <div class="container ">
+    <div class="container">
       <div class="text-center center-block">
-          <br />
-
-          <a href="https://www.linkedin.com/in/nandimandalamsunny2809/"><i class="fa fa-linkedin fa-3x social"
-                  id="social-li"></i></a>
-          <a href="https://github.com/NANDIMANDALAM-SUNNY"><i class="fa fa-github fa-3x social"
-                  id="social-gi"></i></a>
-          <a href="https://twitter.com/Nandimandalam11"><i id="social-tw"
-                  class="fa fa-twitter-square fa-3x social"></i></a>
-          <a href="mailto:r170911@rguktrkv.ac.in"><i id="social-em"
-                  class="fa fa-envelope-square fa-3x social"></i></a>
-          <a href="https://www.youtube.com/channel/UCgn-msXgseMZkeCe6_c6lfA"><i
-                  class="fa fa-youtube-square fa-3x social" id="social-yo"></i></a>
-          <a href="https://www.facebook.com/"><i id="social-fb"
-                  class="fa fa-facebook-square fa-3x social"></i></a>
-          <a href="https://instagram.com/___s.u.n.n.y_____________?utm_medium=copy_link"><i
-                  class="fa fa-instagram fa-3x social" id="social-ins"></i></a>
+        <a href="https://shalem-raju.com" target="_blank"><img src="./logo.png" alt="error"  width="40px" class="social"
+          id="social-li" /></a>
+        <a href="https://www.linkedin.com/in/nandimandalamsunny2809/"><i class="fa fa-linkedin fa-3x social"
+            id="social-li"></i></a>
+        <a href="https://github.com/NANDIMANDALAM-SUNNY"><i class="fa fa-github fa-3x social" id="social-gi"></i></a>
+        <a href="https://twitter.com/Nandimandalam11"><i id="social-tw"
+            class="fa fa-twitter-square fa-3x social"></i></a>
+        <a href="mailto:r170911@rguktrkv.ac.in"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        <a href="https://www.youtube.com/channel/UCgn-msXgseMZkeCe6_c6lfA"><i class="fa fa-youtube-square fa-3x social"
+            id="social-yo"></i></a>
+        <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+        <a href="https://instagram.com/___s.u.n.n.y_____________?utm_medium=copy_link"><i
+            class="fa fa-instagram fa-3x social" id="social-ins"></i></a>
       </div>
-<!-- Footer -->
+    </div>
     <!-- footer ends -->
-
-    <!-- main div ens -->
   </div>
+  <!-- main div ens -->
+  <!--  -->
+  <!--test navbar sscript starts  -->
+  <!-- Linking the Jquery script -->
+
+  <script>
+    $(document).ready(function () {
+      $(".fa-search").click(function () {
+        $(".icon").toggleClass("active");
+        $("input[type='text']").toggleClass("active");
+      });
+    });
+  </script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!--test navbar ends  -->
+  <!--  -->
+  <!--  -->
+  <!--  -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
